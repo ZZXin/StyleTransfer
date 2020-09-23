@@ -3,6 +3,7 @@
 ## Introduction
 
 使用Python+OpenCV+ROS实现图像风格迁移，虽然是4年前的项目，结合这个项目打通从基于深度网络的算法移植到嵌入式平台这条路。
+![image](https://github.com/ZZXin/StyleTransfer/blob/master/images/style.png)
 
 ## Environment
 
@@ -12,7 +13,7 @@ python2.7;opencv==4.1.0;ros-melodic;
 
 ```bash
 # download source code
-git clone https://github.com/StrangerZhang/pysot-toolkit
+git clone https://github.com/ZZXin/StyleTransfer
 # create workspace
 mkdir -p catkin_ws1/src
 # move source code to /src
